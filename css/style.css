@@ -1,0 +1,150 @@
+
+
+@font-face {
+    font-family: LinjaPona; /* linja pona font from http://musilili.net/linja-pona/, used under CC-BY 4.0 */
+    src: url("./linja-pona-4.9.otf") format("opentype");
+}
+
+html {
+	font-feature-settings: "liga"; /* Turn ligatures on */
+  font-family: LinjaPona;
+
+  background-color: #D4CBE5;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-size: 150%;
+  margin: 0px;
+  padding: 0px;
+}
+
+#topBar {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  font-size: 200%;
+  background-color: #160C28;
+  color: #EFCB68;
+  display:flex;
+  justify-content: space-between;
+  align-items:center;
+  border-bottom: 5px solid #EFCB68;
+}
+
+#shadowBar
+{
+  z-index: -1;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  box-shadow: 0 0px 150px 150px #EFCB68AA;
+}
+#headerButtonBar
+{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  margin:10px;
+}
+
+#toolBody
+{
+  text-align: center;
+}
+
+#generate
+{
+  margin: 0.3em;
+  padding: 0.3em;
+  background: #160C28;
+  color: #EFCB68;
+  font-family: LinjaPona;
+  font-size: 200%;
+  transition-duration: 0.1s;
+  border-radius: 15px 30px;
+  border: 5px solid #EFCB68;
+}
+
+#generate:hover {
+  border: 2px solid #EFCB68;
+  box-shadow: 0 0px 15px 15px #EFCB68BB;
+}
+
+#generate:active {
+  border: 2px solid #EFCB68;
+  box-shadow: 0 0px 30px 30px #EFCB68BB;
+  background-color: #D4CBE5;
+  color: black;
+}
+
+#planetCharacteristicsHeader
+{
+  margin: 0.5em;
+}
+
+.headerButton
+{
+  font-family: LinjaPona;
+  font-size: 100%;
+  background: #EFCB68;
+  color: #160C28;
+  transition-duration: 0.1s;
+  border-radius: 5px 15px;
+}
+
+.headerButton:hover {
+  border: 2px solid #160C28;
+  box-shadow: 0 0px 5px 5px #EFCB6855;
+}
+
+.latinOnly
+{
+  font-family: Arial;
+}
+
+#footer
+{
+  border-top: 2px solid #000000;
+  text-align: center;
+  font-size: 75%;
+}
+
+.latinOnly
+{
+
+  font-size: 75%;
+}
+
+#infoBlock
+{
+  margin-left:10%;
+  margin-right:10%;
+}
+
+#englishInfo
+{
+  display: none;
+}
+
+#englishButton
+{
+  color: blue;
+}
+
+#title
+{
+  color: #EFCB68;
+  outline: none;
+  font-size: 150%;
+
+}
+#titleLink
+{
+  text-decoration: none;
+}
+#pageBody
+{
+  font-size: 125%;
+}

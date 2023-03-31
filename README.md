@@ -1,2 +1,2 @@
 # ilo pi mun nasa
- ilo pi mun nasa - a toki pona procedural generation tool
+ ilo pi mun nasa - procedural generation tool in toki pona

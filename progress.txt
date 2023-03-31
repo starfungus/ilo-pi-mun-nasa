@@ -1,0 +1,6 @@
+todo:
+
+  Implement name generator
+  Implement animal generation.
+  Implement culture generation.
+  Warning for if you have JavaScript off.
