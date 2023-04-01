@@ -31,6 +31,7 @@ body {
   justify-content: space-between;
   align-items:center;
   border-bottom: 5px solid #EFCB68;
+  flex-wrap: wrap;
 }
 
 #shadowBar
@@ -47,6 +48,7 @@ body {
   justify-content: center;
   align-items: center;
   margin:10px;
+  flex-wrap: wrap;
 }
 
 #toolBody
@@ -138,7 +140,7 @@ body {
   color: #EFCB68;
   outline: none;
   font-size: 150%;
-
+  margin-left: 0.25em;
 }
 #titleLink
 {
