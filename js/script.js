@@ -607,6 +607,9 @@ function toggleSitelenMode()
       janSame[i].textContent = "Same";
     }
     document.getElementById("title").textContent = "ilo pi mun nasa";
+
+    document.getElementById("sitelenButton").innerHTML = 'sitelen pona';
+
     let latinOnly = document.getElementsByClassName("latinOnly");
     for (let i = 0; i < latinOnly.length; i++)
     {
@@ -624,11 +627,14 @@ function toggleSitelenMode()
       janSame[i].textContent = "[SAME]";
     }
     document.getElementById("title").textContent = "ilo pi++ mun nasa";
+
+    document.getElementById("sitelenButton").innerHTML = '<span class="latinOnly">sitelen Lasina</span>';
     let latinOnly = document.getElementsByClassName("latinOnly");
     for (let i = 0; i < latinOnly.length; i++)
     {
       latinOnly[i].style.fontSize = "75%";
     }
+
   }
 }
 
