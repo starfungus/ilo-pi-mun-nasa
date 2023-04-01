@@ -616,7 +616,7 @@ function toggleSitelenMode()
   else
   {
     document.body.style.fontFamily = "LinjaPona";
-    document.getElementById("pageBody").style.fontSize = "125%";
+    document.getElementById("pageBody").style.fontSize = "150%";
     sitelenPona = true;
     let janSame = document.getElementsByClassName("janSame")
     for (let i = 0; i < janSame.length; i++)
